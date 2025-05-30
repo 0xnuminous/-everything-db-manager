@@ -18,9 +18,10 @@ A modern, fast SQLite database manager with an interactive terminal UI. Built wi
 - 🛠️ **Smart Table Creation**: Both interactive guided mode and manual SQL definition
 - 🏷️ **Metadata Management**: Store database descriptions, purpose, owner, and tags internally
 - 🔍 **Schema Inspection**: Beautiful formatted table schemas and column information
-- 📝 **Enhanced Data Entry**: Real-time feedback, validation, and error handling
-- 🗂️ **Multi-Database Support**: Manage multiple databases with organized storage
-- ⚡ **Modern Python Tooling**: Uses uv, Python 3.12+, and modern best practices
+- **Enhanced Data Entry**: Real-time feedback, validation, and error handling
+- **UI Explorer**: Intuitive interface for users unfamiliar with database concepts
+- **Multi-Database Support**: Manage multiple databases with organized storage
+- **Modern Python Tooling**: Uses uv, Python 3.12+, and modern best practices
 
 ## 🎯 Quick Start
 
@@ -84,8 +85,9 @@ uv run ui_improvements_demo.py
 7. **Insert Data** - Add data with guided input and validation
 8. **View Table Data** - Browse table contents with pagination
 9. **Show Database Info** - View database metadata and statistics
-10. **Close Database** - Close current database connection
-11. **Exit** - Quit the application
+10. **UI Explorer** - Beginner-friendly interface for non-technical users
+11. **Close Database** - Close current database connection
+12. **Exit** - Quit the application
 
 ## 🛠️ Table Creation Features
 
@@ -100,6 +102,37 @@ uv run ui_improvements_demo.py
 - **SQL Definition**: Direct column definition entry
 - **Advanced Features**: CHECK constraints, foreign keys, complex types
 - **Syntax Validation**: Prevents common errors before creation
+
+## 🎮 UI Explorer - Beginner-Friendly Interface
+
+The UI Explorer provides an intuitive interface for users who aren't familiar with database terminology:
+
+### Features
+- **Plain Language**: Uses terms like "storage space" instead of "table"
+- **Guided Workflows**: Step-by-step processes for common tasks
+- **Visual Data Display**: Clean, formatted views of your information
+- **Smart Search**: Find data without writing SQL queries
+- **Data Summaries**: Overview of all stored information
+
+### Explorer Options
+1. **📊 Browse My Data** - See what information is stored
+2. **➕ Add New Information** - Create new storage spaces with guided setup
+3. **✏️ Update Existing Information** - Modify stored data
+4. **🔍 Search & Filter Data** - Find specific items easily
+5. **📈 Get Data Summary** - Overview of all your data
+6. **❓ Help** - Explanations of concepts and features
+
+### Example Workflow
+```
+Creating a "customers" storage space:
+1. Choose a name: "customers"
+2. Add fields step-by-step:
+   - Name (Text/Words - Required)
+   - Email (Text/Words - Required) 
+   - Age (Numbers - Optional)
+   - Active (Yes/No - Optional)
+3. Automatically creates proper database structure
+```
 
 ### Example Interactive Session
 ```

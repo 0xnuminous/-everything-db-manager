@@ -50,6 +50,9 @@ uv run table_creation_demo.py
 
 # UI improvements showcase
 uv run ui_improvements_demo.py
+
+# UI Explorer beginner-friendly interface
+uv run ui_explorer_demo.py
 ```
 
 ## Development Commands
@@ -102,6 +105,7 @@ everything/
 ├── example_usage.py         # Usage demonstration
 ├── table_creation_demo.py   # Table creation examples
 ├── ui_improvements_demo.py  # UI enhancements demo
+├── ui_explorer_demo.py      # UI Explorer demonstration
 ├── pyproject.toml          # Project configuration
 ├── README.md               # User documentation
 ├── DEVELOPMENT.md          # This file
@@ -163,6 +167,23 @@ uv run pytest
 # Run with coverage
 uv run pytest --cov
 ```
+
+## Features Overview
+
+### Core Features
+- **Database Management**: Create, open, and manage SQLite databases
+- **Table Operations**: Interactive and manual table creation with validation
+- **Data Management**: Insert, query, update, and delete operations
+- **Schema Inspection**: View table structures and relationships
+- **Metadata System**: Internal storage of database descriptions and tags
+
+### UI Explorer (Beginner-Friendly)
+- **Plain Language Interface**: Uses everyday terms instead of technical jargon
+- **Guided Workflows**: Step-by-step processes for common tasks
+- **Visual Data Display**: Clean, formatted views of stored information
+- **Smart Search**: Find data without SQL knowledge
+- **Data Summaries**: Overview of all stored information
+- **Interactive Help**: Built-in explanations and guidance
 
 ## Environment Variables
 
