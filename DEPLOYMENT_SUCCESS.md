@@ -2,7 +2,7 @@
 
 ## Repository Successfully Deployed to GitHub!
 
-**Repository URL**: https://github.com/0xnuminous/-everything-db-manager  
+**Repository URL**: https://github.com/0xnuminous/everything-db-manager  
 **Deployment Date**: May 30, 2025  
 **Status**: ✅ LIVE AND ACCESSIBLE
 
@@ -73,8 +73,8 @@
 ### Quick Start Commands
 ```bash
 # Clone repository
-git clone https://github.com/0xnuminous/-everything-db-manager.git
-cd -everything-db-manager
+git clone https://github.com/0xnuminous/everything-db-manager.git
+cd everything-db-manager
 
 # Setup environment (creates .venv automatically)
 uv sync
@@ -190,6 +190,6 @@ The Everything DB Manager has been successfully deployed to GitHub with:
 
 ---
 
-**Repository**: https://github.com/0xnuminous/-everything-db-manager  
+**Repository**: https://github.com/0xnuminous/everything-db-manager  
 **Deployment**: May 30, 2025  
 **Status**: 🚀 SUCCESSFULLY DEPLOYED AND OPERATIONAL

@@ -234,7 +234,7 @@ The success of this project suggests a future where AI assistants serve as full 
 
 ---
 
-**Project Repository**: https://github.com/0xnuminous/-everything-db-manager  
+**Project Repository**: https://github.com/0xnuminous/everything-db-manager  
 **Development Date**: May 30, 2025  
 **Total Development Time**: ~4 hours  
 **Result**: Production-ready SQLite database manager with modern Python tooling
